@@ -1,0 +1,16 @@
+[package]
+name = "tinyevm"
+version = "0.1.0"
+edition = "2021"
+authors = ["pancy <pan@fil.org>"]
+
+[lib]
+name = "tinyevm"
+path = "src/lib.rs"
+
+[[bin]]
+name = "tinyevm"
+path = "src/main.rs"
+
+[dependencies]
+primitive-types = "^0.12.1"
